@@ -66,9 +66,9 @@ async def gban(userbot):
     if not sender.id == hum.id:
         REBELBOT = await edit_or_reply(ids, "Trying to gban this retard!")
     else:
-        REBELBOT = await edit_or_reply(ids, "`JANAB ABB APP KII KALLI GAND FAT JAYAGE🖕🖕🤣`")
+        REBELBOT = await edit_or_reply(ids, "`𝚋𝚊𝚊𝚙 𝚔𝚘 𝚏𝚎𝚕𝚕 𝚔𝚊𝚛𝚘`")
     hum = await userbot.client.get_me()
-    await REBELBOT.edit(f"`🔥BETA BAAP SAAA PANAGA NAHI ABB DEKHO KYA HOO GAAA TERA. ABBB TERI KALLI GAND KO FAR DUU GA`")
+    await REBELBOT.edit(f"`𝚋𝚊𝚊𝚙 𝚋𝚊𝚊𝚙 𝚑𝚘𝚝𝚊 𝚘𝚛𝚛 𝚋𝚊𝚊𝚙 𝚖𝚊𝚊 𝚌𝚑𝚘𝚍𝚎𝚝𝚊 𝚑𝚊𝚒 𝚋𝚊𝚜𝚜`")
     my_mention = "[{}](tg://user?id={})".format(hum.first_name, hum.id)
     f"@{hum.username}" if hum.username else my_mention
     await userbot.get_chat()
@@ -109,7 +109,7 @@ async def gban(userbot):
             try:
                 await userbot.client.edit_permissions(i, user, view_messages=False)
                 a += 1
-                await REBELBOT.edit(f"Gbaning This retard🚶\n\nTotal Chats :- `{a}`")
+                await REBELBOT.edit(f"𝚋𝚊𝚊𝚙 𝚔𝚊 𝚜𝚙𝚎𝚎𝚍 𝚍𝚎𝚔𝚑𝚘 𝚋𝚎𝚝𝚎 :- `{a}`")
             except:
                 b += 1
     else:
@@ -120,7 +120,7 @@ async def gban(userbot):
     except:
         pass
     return await REBELBOT.edit(
-        f"[{user.first_name}](tg://user?id={user.id}) Beta BAAP SA PANGA NAHI [{REBEL}](tg://user?id={papa}) TU BETA HA MERA BETA HE RAH.\n\n**Gban Successful 🔥\nAffected Chats😏 : {a} **"
+        f"🤘ℜ𝔞𝔧𝔰𝔥𝔯𝔢𝔢🤘 𝚋𝚊𝚊𝚙 𝚔𝚊 𝚙𝚘𝚠𝚎𝚛 𝚑𝚊𝚒 𝚢𝚎 𝚊𝚋 𝚏𝚎𝚕𝚕 𝚔𝚊𝚛𝚘 : {a} **"
     )
 
 @bot.on(admin_cmd(pattern="ungban ?(.*)"))
