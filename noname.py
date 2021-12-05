@@ -12,6 +12,7 @@ import threading
 from concurrent.futures import ThreadPoolExecutor
 from pyrogram.errors import FloodWait, MessageNotModified
 import multiprocessing
+from userbot.utils import admin_cmd, sudo_cmd
 import time
 import calendar
 from pytgcalls import GroupCallFactory, GroupCallFileAction
